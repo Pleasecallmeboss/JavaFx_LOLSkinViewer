@@ -1,0 +1,60 @@
+{ 
+    "_id" : ObjectId("5e318b97ec027ff0c331ae5e"), 
+    "地址" : "https://game.gtimg.cn/images/lol/act/img/skin/big4000.jpg", 
+    "名称" : "卡牌大师"
+}
+{ 
+    "_id" : ObjectId("5e318b97ec027ff0c331ae5f"), 
+    "地址" : "https://game.gtimg.cn/images/lol/act/img/skin/big4001.jpg", 
+    "名称" : "蓝色忧郁 崔斯特"
+}
+{ 
+    "_id" : ObjectId("5e318b97ec027ff0c331ae60"), 
+    "地址" : "https://game.gtimg.cn/images/lol/act/img/skin/big4002.jpg", 
+    "名称" : "红桃杰克 崔斯特"
+}
+{ 
+    "_id" : ObjectId("5e318b97ec027ff0c331ae61"), 
+    "地址" : "https://game.gtimg.cn/images/lol/act/img/skin/big4003.jpg", 
+    "名称" : "魔幻卡牌 崔斯特"
+}
+{ 
+    "_id" : ObjectId("5e318b97ec027ff0c331ae62"), 
+    "地址" : "https://game.gtimg.cn/images/lol/act/img/skin/big4004.jpg", 
+    "名称" : "探戈灵魂 崔斯特"
+}
+{ 
+    "_id" : ObjectId("5e318b97ec027ff0c331ae63"), 
+    "地址" : "https://game.gtimg.cn/images/lol/act/img/skin/big4005.jpg", 
+    "名称" : "西部牛仔 崔斯特"
+}
+{ 
+    "_id" : ObjectId("5e318b97ec027ff0c331ae64"), 
+    "地址" : "https://game.gtimg.cn/images/lol/act/img/skin/big4006.jpg", 
+    "名称" : "皇家火枪手 崔斯特"
+}
+{ 
+    "_id" : ObjectId("5e318b97ec027ff0c331ae65"), 
+    "地址" : "https://game.gtimg.cn/images/lol/act/img/skin/big4007.jpg", 
+    "名称" : "地底世界 崔斯特"
+}
+{ 
+    "_id" : ObjectId("5e318b97ec027ff0c331ae66"), 
+    "地址" : "https://game.gtimg.cn/images/lol/act/img/skin/big4008.jpg", 
+    "名称" : "逆转裁判 崔斯特"
+}
+{ 
+    "_id" : ObjectId("5e318b97ec027ff0c331ae67"), 
+    "地址" : "https://game.gtimg.cn/images/lol/act/img/skin/big4009.jpg", 
+    "名称" : "逍遥赌侠 崔斯特"
+}
+{ 
+    "_id" : ObjectId("5e318b97ec027ff0c331ae68"), 
+    "地址" : "https://game.gtimg.cn/images/lol/act/img/skin/big4010.jpg", 
+    "名称" : "腥红之月 崔斯特"
+}
+{ 
+    "_id" : ObjectId("5e318b97ec027ff0c331ae69"), 
+    "地址" : "https://game.gtimg.cn/images/lol/act/img/skin/big4011.jpg", 
+    "名称" : "未来战士 崔斯特"
+}

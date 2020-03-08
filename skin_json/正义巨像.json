@@ -1,0 +1,40 @@
+{ 
+    "_id" : ObjectId("5e318b8bec027ff0c331ae55"), 
+    "地址" : "https://game.gtimg.cn/images/lol/act/img/skin/big3000.jpg", 
+    "名称" : "正义巨像"
+}
+{ 
+    "_id" : ObjectId("5e318b8bec027ff0c331ae56"), 
+    "地址" : "https://game.gtimg.cn/images/lol/act/img/skin/big3001.jpg", 
+    "名称" : "幽蓝梦魇 加里奥"
+}
+{ 
+    "_id" : ObjectId("5e318b8bec027ff0c331ae57"), 
+    "地址" : "https://game.gtimg.cn/images/lol/act/img/skin/big3002.jpg", 
+    "名称" : "机械迷城 加里奥"
+}
+{ 
+    "_id" : ObjectId("5e318b8cec027ff0c331ae58"), 
+    "地址" : "https://game.gtimg.cn/images/lol/act/img/skin/big3003.jpg", 
+    "名称" : "战地之王 加里奥"
+}
+{ 
+    "_id" : ObjectId("5e318b8cec027ff0c331ae59"), 
+    "地址" : "https://game.gtimg.cn/images/lol/act/img/skin/big3004.jpg", 
+    "名称" : "地狱之门卫士 加里奥"
+}
+{ 
+    "_id" : ObjectId("5e318b8cec027ff0c331ae5a"), 
+    "地址" : "https://game.gtimg.cn/images/lol/act/img/skin/big3005.jpg", 
+    "名称" : "风执事 加里奥"
+}
+{ 
+    "_id" : ObjectId("5e318b8cec027ff0c331ae5b"), 
+    "地址" : "https://game.gtimg.cn/images/lol/act/img/skin/big3006.jpg", 
+    "名称" : "鸡里奥"
+}
+{ 
+    "_id" : ObjectId("5e318b8cec027ff0c331ae5c"), 
+    "地址" : "https://game.gtimg.cn/images/lol/act/img/skin/big3013.jpg", 
+    "名称" : "地狱火 加里奥"
+}
