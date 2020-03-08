@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Fxml.TableViewController">
+   <children>
+      <MenuBar>
+         <menus>
+            <Menu mnemonicParsing="false" text="File">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#OnNew" text="New" />
+                  <MenuItem mnemonicParsing="false" onAction="#OnOpen" text="Open" />
+                  <MenuItem mnemonicParsing="false" onAction="#OnSaveAs" text="Save As" />
+                  <MenuItem mnemonicParsing="false" onAction="#OnSaveFile" text="Save" />
+                  <MenuItem mnemonicParsing="false" onAction="#OnExit" text="Exit" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Test">
+               <items>
+                  <MenuItem fx:id="OpenCatalog" mnemonicParsing="false" onAction="#OnCatalog" text="打开目录" />
+                  <MenuItem fx:id="OpenDocument" mnemonicParsing="false" onAction="#OnOpenDocument" text="打开文件" />
+                  <MenuItem fx:id="OpenPicture" mnemonicParsing="false" onAction="#OnOpenPicture" text="打开指定（图片）文件" />
+                  <MenuItem fx:id="SaveDocument" mnemonicParsing="false" onAction="#OnSave" text="保存文件" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Edit">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Delete" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <TabPane prefHeight="400.0" prefWidth="650.0">
+         <tabs>
+            <Tab text="TableView">
+               <content>
+                  <SplitPane dividerPositions="0.5100334448160535" prefHeight="160.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <items>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <TableView fx:id="TableView" editable="true" prefHeight="312.0" prefWidth="328.0" AnchorPane.bottomAnchor="49.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <columnResizePolicy>
+                                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                 </columnResizePolicy>
+                                 <columns>
+                                    <TableColumn fx:id="TableName" prefWidth="86.0" text="NickName" />
+                                    <TableColumn fx:id="TableSkinName" prefWidth="86.0" text="Name" />
+                                 </columns>
+                              </TableView>
+                              <HBox alignment="CENTER" layoutY="307.0" prefHeight="54.0" prefWidth="328.0" spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="307.0">
+                                 <children>
+                                    <JFXTextField fx:id="NickNameField" prefWidth="86.0" />
+                                    <JFXTextField fx:id="NameField" prefWidth="86.0" />
+                                    <JFXButton fx:id="BtnAdd" onAction="#OnAdd" text="Add" />
+                                    <Button fx:id="BtnDelete" mnemonicParsing="false" onAction="#OnDelete" text="Delete" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <Label fx:id="LbeShow" layoutX="125.0" layoutY="72.0" text="Label" />
+                              <ImageView fx:id="ImageShow" fitHeight="150.0" fitWidth="200.0" layoutX="45.0" layoutY="133.0" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                        </AnchorPane>
+                     </items>
+                  </SplitPane>
+               </content>
+            </Tab>
+            <Tab text="TreeView">
+               <content>
+                  <SplitPane dividerPositions="0.5" prefHeight="160.0" prefWidth="200.0">
+                     <items>
+                        <AnchorPane focusTraversable="true" minHeight="0.0" minWidth="0.0" prefHeight="452.0" prefWidth="407.0">
+                           <children>
+                              <TreeView fx:id="TreeView" prefHeight="279.0" prefWidth="175.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane focusTraversable="true" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <ImageView fx:id="ImageTreeView" fitHeight="280.0" fitWidth="295.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true" />
+                              <Button fx:id="BtnTest" layoutX="126.0" layoutY="280.0" mnemonicParsing="false" text="Button" />
+                           </children>
+                        </AnchorPane>
+                     </items>
+                  </SplitPane>
+               </content>
+            </Tab>
+         </tabs>
+      </TabPane>
+   </children>
+</VBox>
